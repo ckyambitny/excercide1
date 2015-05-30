@@ -1,1 +1,1 @@
-# excercide1
+# excercise 1 simple calc

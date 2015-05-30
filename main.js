@@ -1,4 +1,4 @@
-var Calculator = function(a) {
+var Calculator = function (a) {
     var operationList = {
         add: function (y) {
             a += y;
@@ -11,13 +11,8 @@ var Calculator = function(a) {
         value: function () {
             return a;
         }
-    }
-        
-      
-  
+    };
     return operationList; 
-
-    
 };
 
 module.exports = Calculator;
