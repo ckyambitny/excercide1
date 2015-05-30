@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   '-g',
+1 verbose cli   'uninstall',
+1 verbose cli   'jest',
+1 verbose cli   'jest-cli' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink /usr/bin/node
+5 verbose lib/node_modules/jest unbuild
+6 verbose lib/node_modules/jest-cli unbuild
+7 info preuninstall jest@0.1.40
+8 info uninstall jest@0.1.40
+9 verbose true,/usr/lib/node_modules,/usr/lib/node_modules unbuild jest@0.1.40
+10 info postuninstall jest@0.1.40
+11 info preuninstall jest-cli@0.4.5
+12 info uninstall jest-cli@0.4.5
+13 verbose true,/usr/lib/node_modules,/usr/lib/node_modules unbuild jest-cli@0.4.5
+14 verbose /usr/bin,[object Object] binRoot
+15 error Error: EACCES, unlink '/usr/lib/node_modules/jest'
+15 error  { [Error: EACCES, unlink '/usr/lib/node_modules/jest'] errno: 3, code: 'EACCES', path: '/usr/lib/node_modules/jest' }
+16 error Please try running this command again as root/Administrator.
+17 error System Linux 3.16.0-38-generic
+18 error command "/usr/bin/node" "/usr/bin/npm" "-g" "uninstall" "jest" "jest-cli"
+19 error cwd /home/cky/projects/test-ex-1
+20 error node -v v0.10.38
+21 error npm -v 1.4.28
+22 error path /usr/lib/node_modules/jest
+23 error code EACCES
+24 error errno 3
+25 error stack Error: EACCES, unlink '/usr/lib/node_modules/jest'
+26 verbose exit [ 3, true ]

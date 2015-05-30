@@ -20,6 +20,4 @@ var Calculator = function(a) {
     
 };
 
-
- 
-
+module.exports = Calculator;
